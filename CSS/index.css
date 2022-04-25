@@ -43,7 +43,6 @@ body .jumbotron {
     margin: 0 auto;
 }
 body{
-  /* border: 5px solid black; */
   background-color : #20bf55;
   background-image : linear-gradient(315deg, #20bf55 0%, #01baef 74%);
   height: 100vh;
