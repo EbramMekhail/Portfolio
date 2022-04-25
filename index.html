@@ -1,25 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="./images/favicon.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.4/ofi.min.js"></script>
+    <link rel="stylesheet" href="./CSS/index.css">
     <title>Ebram's Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="./images/favicon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Ebram Mekhail
+            </a>
+            <a class="navbar-brand" href="https://www.linkedin.com/in/ebram-mekhail/">
+                LinkedIn
+            </a>
+          </nav>
+        <nav>
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                  <a class="nav-link active" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./resume.html">Resume</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="./projects.html" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item " href="./projects.html">All Projects</a>
+                      <a class="dropdown-item " href="./c++.html">C++ Project</a>
+                      <a class="dropdown-item" href="./python.html">Python Project</a>                    </div>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+              </ul>
+        </nav>
     </header>
-
     <main>
+        <div class="bpad">
+        </div>
+        <div class="container">
+          <div class="jumbotron">
+            <div class="bg"></div>
+            <h1>Hello World,</h1>
+            <p>My Name is Ebram Mekhail I am currently a Sophmore at NJIT</p>
+            <p>My Passion has always been around Computers and Programming </p>
+            <p>Take a look around, Maybe you will see something you like</p>
+          </div>
+        </div>
+    </div>
 
-
+    <div class="row">
+        <div class="col-sm-6" >
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">C++ Project: Parser/Interputer/Complier </h5>
+              <p class="card-text">Using many different programming techniques I successfully created a parser, interpreter, and complier for a language similar to FORTRAN.</p>              
+              <a href="./c++.html" class="btn btn-primary">C++ Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Python Project: TicTacToe</h5>
+              <p class="card-text">Using PYGame created a TicTacToe game with a two-player mode and a single-player mode against a bot.<br>‎ </p>
+              <a href="./python.html" class="btn btn-primary">Python Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
 
-    <footer>
-
+    <footer class="bg-dark text-center text-lg-start">
+      <!-- Copyright -->
+      <div class="text-white center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright: Ebram Mekhail | Terms and Service | Privacy Statement      </div>
+      <!-- Copyright -->
     </footer>
-</body>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
